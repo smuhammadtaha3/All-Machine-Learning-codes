@@ -1,0 +1,51 @@
+# ==============================
+# Python cache
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+env/
+ENV/
+.venv/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Local experiment outputs
+# ==============================
+notebooks/
+
+# ==============================
+# Temporary matplotlib outputs
+# ==============================
+*.png
+
+# BUT allow the static graph
+!backend/static/boundary_plot.png
+
+# ==============================
+# Large datasets
+# ==============================
+data/
+datasets/
+
+model_training/data/
