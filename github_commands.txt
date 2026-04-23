@@ -1,0 +1,22 @@
+1. git log
+2. git rm -r "Regularized Logistc Regression"
+3. git pull origin main --allow-unrelated-histories
+4. git restore --staged .
+5. git push origin main --force
+6. git restore --staged test.txt
+7 git status
+8. git branch -m main
+9. Get-ChildItem
+10. git push -u origin main
+11. for nested folders:
+		1. xcopy Student_Admission_Predictor_temp\* . /E /H /C /I /Y
+		2. rmdir /S /Q Student_Admission_Predictor_temp
+13. Rename-Item .\Student_Admission_Predictor Student_Admission_Predictor_temp
+14. jab glt folder ma initaiallize ho jae aur git add . ho jae to : 
+	1. rmdir /s /q .git
+	2. cd ..  kr ke 
+	3. git rm -r --cached backend
+15 for renaming
+	1. git remote -v
+	2. git remote set-url origin 
+	3. https://github.com/smuhammadtaha3/NEW_REPO_NAME.git
